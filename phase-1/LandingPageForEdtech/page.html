@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page.css">
+  <title>EdTech Landing Page</title>
+  <!--favicon-->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container ">
+        <h1>EdTechHub</h1> 
+        <div class="topnav">        
+          <a href="#contact">Contact</a>
+          <a href="#about">About Us</a>
+          <a href="#courses">Courses</a>
+          <a class="active" href="#home">Home</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!--Home-->
+  <section class="hero ">
+    <div class="container img"  id="home">
+      <h2>Your Path to Lifelong Learning</h2>
+      <p>Unlock your potential with our diverse range of online courses.</p>
+      <a href="#courses" class="button1 primary-button1">Explore Courses</a>
+    </div>
+  </section>
+  <!--Courses-->
+  <section>
+    <div class="container card-bg" id="courses">
+      <div class="card-group">
+        <article class="card">
+          <img src="https://i.imgur.com/n8cDg42.png"/>
+        </article>
+        <article class="card">
+          <img src="https://i.imgur.com/0S5ruEQ.png"/>
+        </article>
+        <article class="card">
+          <img src="https://i.imgur.com/e7vgT3V.png"/>
+        </article>
+        <article class="card">
+          <img src="https://i.imgur.com/CJQi1hJ.png"/>
+        </article>
+        <article class="card">
+          <img src="https://i.imgur.com/nwzKqnE.png"/>
+        </article>
+      </div>
+      <button class="button1 primary-button1">Load More..</button>
+    </div>
+  </section>
+<!--About-->
+  <section class="features">
+    <div class="container" id="about">
+      <div class="feature">
+        <h3>Expert Instructors</h3>
+        <p>-------- >>Learn from industry experts with real-world experience.</p>
+      </div>
+      <div class="feature">
+        <h3>Flexible Learning</h3>
+        <p>-------- >>Study at your own pace, anytime, anywhere.</p>
+      </div>
+      <div class="feature">
+        <h3>Certification</h3>
+        <p>-------- >>Earn certificates to validate your new skills.</p>
+      </div>
+    </div>
+  </section>
+<!--Contact-->
+  <section class="contact" id="contact">
+    <form action="" class="contact-form">
+      <div class="form-wrapper">
+        <label for="name" class="form-label">Name</label>
+        <div class="input-wrapper">
+          <input type="text" name="name" id="name" required placeholder="e.g Tanoosh Kondu" class="input-field">
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <label for="email" class="form-label">Email</label>
+        <div class="input-wrapper">
+          <input type="email" name="email" id="email" required placeholder="e.g kondutanoosh04@gmail.com"
+            class="input-field">
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <label for="phone" class="form-label">Phone</label>
+        <div class="input-wrapper">
+          <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+        </div>
+      </div>
+      <div class="form-wrapper">
+        <label for="message" class="form-label">Message</label>
+        <div class="input-wrapper">
+          <textarea name="message" id="message" required placeholder="Write message..."
+            class="input-field"></textarea>
+        </div>
+      </div>
+      <button type="submit" class="button1 primary-button1" onclick="function1()">Send</button>
+    </form>
+  </section>
+<!--Footer-->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 EdTechHub. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="page.js"></script>
+</body>
+</html>
